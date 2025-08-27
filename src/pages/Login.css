@@ -1,0 +1,65 @@
+.contenedor-login{
+    /*Estilo visual*/
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #F4F7FA;
+    /*Acomodo y medidas*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* vh es Viewport Height y es el porcentaje que se toma (100) */
+}
+.formulario-login{
+    /*Estilo visual*/
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    /*Acomodo y medidas*/
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+.formulario{
+    /*Acomodo y medidas*/
+    margin-bottom: 1rem;
+}
+.formulario label {
+    /*Acomodo y medidas*/
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+.formulario input {
+    /*Estilo visual*/
+    border: 1px solid #CCCCCC;
+    /*Acomodo y medidas*/
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.mensaje-error{
+    /*Estilo visual*/
+    color: #DC3545;
+    /*Acomodo y medidas*/
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.boton-acceso{
+    /*Estilo visual*/
+    background-color: #27AE60;
+    color: #FFFFFF;
+    /*Acomodo y medidas*/
+    padding: 0.75rem;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    /*Interaccion del boton*/
+    cursor: pointer;
+    transition: 0.2s;
+}
+.boton-acceso:hover{
+    /*Estilo visual*/
+    background-color: #229954;
+}

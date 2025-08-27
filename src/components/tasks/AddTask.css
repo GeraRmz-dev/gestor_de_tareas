@@ -1,0 +1,54 @@
+.agregar-tarea{
+    /*Acomodo y medidas*/
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+.input-agregar-tarea{
+    /*Estilo visual*/
+    border: 1px solid #E9ECEF;
+    /*Acomodo y medidas*/
+    flex-grow: 1; /*Asegura que el input abarque todo el espacio*/
+    padding: 0.75rem;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+.agregar-tarea-boton{
+    /*Estilo visual*/
+    background-color: #27AE60;
+    color: #FFFFFF;
+    border: none;
+    /*Acomodo y medidas*/
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    font-weight: bold;
+    /*Interaccion del boton*/
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.agregar-tarea-boton:hover{
+     /*Aqui se define el estilo del boton cuando se pasa el mouse encima*/
+    background-color: #229954;
+}
+
+.boton-mostrar-form{
+    /*Estilo visual*/
+    background-color: transparent;
+    color: #27AE60;
+    border: 2px dashed #27AE60;
+    /*Acomodo y medidas*/
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    /*Interaccion del boton*/
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-bottom: 2rem;
+}
+.boton-mostrar-form:hover{
+         /*Aqui se define el estilo del boton cuando se pasa el mouse encima*/
+    background-color: #27AE60;
+    color:#FFFFFF;
+}

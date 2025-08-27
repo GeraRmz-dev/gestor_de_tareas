@@ -1,0 +1,47 @@
+.cabecera-app {
+    /*Estilo visual*/
+    background-color: #FFFFFF;
+    color: #212529;
+    border-bottom: 1px solid #E9ECEF;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /*Acomodo y medidas*/
+    width:100%;
+    padding: 1rem 1.5rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cerrar-sesion-boton {
+    /*Estilo visual*/
+    color: #212529;
+    background-color: transparent;
+    border: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    /*Acomodo y medidas*/
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    /*Interaccion del boton*/
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.cerrar-sesion-boton:hover {
+ /*Aqui se define el estilo del boton cuando se pasa el mouse encima*/
+    background-color: #9A9999;
+}
+
+.cerrar-sesion-img {
+ /* Este es el estilo especifico del archivo svg
+ que se integro al boton de cerrar sesion*/
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+

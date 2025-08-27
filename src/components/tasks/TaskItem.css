@@ -1,0 +1,112 @@
+.checkbox-tarea{
+    /*Acomodo y medidas*/
+    margin-right: 0.75rem; 
+    min-width: 1.25rem;
+    min-height: 1.25rem;
+}
+
+.tarea-texto{
+    /*Acomodo y medidas*/
+    flex-grow: 1;
+}
+
+.botones-tarea{
+    /*Acomodo y medidas*/
+    display: flex;
+    gap: 0.5rem;
+}
+.boton-edicion, .boton-eliminar {
+    /*Estilo visual*/
+    background-color: transparent;
+    /*Acomodo y medidas*/
+    border: none;
+    padding: 0.25rem;
+    border-radius: 4px;
+    /*Interaccion del boton*/
+    cursor: pointer;
+    opacity: 0.2; /* Se ocultara hasta que se haga hover */
+    transition: all 0.2s;
+    line-height: 1;
+}
+
+/* Para cuando se pase el mouse sobre la lista muestre los botones */
+.tarea:hover .boton-edicion,
+.tarea:hover .boton-eliminar {
+    /*Interaccion del boton*/
+    opacity: 1;
+}
+
+/*Aqui se define el estilo de los botones cuando se pasa el mouse encima*/
+.boton-edicion:hover {
+    /*Estilo visual*/
+    background-color: #E9ECEF;
+}
+.boton-eliminar:hover {
+    /*Estilo visual*/
+    background-color: #EF4444;
+    color: #FFFFFF;
+    border-color: #EF4444;
+}
+
+/* Estilos que sirven para el modo de edicion */
+.tarea.editando {
+    /*Acomodo y medidas*/
+    display: flex;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.Input-edicion{
+    /*Estilo visual*/
+    border: 1px solid #27AE60;
+    /*Acomodo y medidas*/
+    flex-grow: 1;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.botones-edicion{
+    /*Acomodo y medidas*/
+    display: flex;
+    gap: 0.5rem;
+}
+.boton-cancelar, .boton-guardar {
+    /*Estilo visual*/
+    border: 1px solid #CCCCCC;
+    /*Acomodo y medidas*/
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    /*Interaccion del boton*/
+    cursor: pointer;
+}
+.boton-guardar {
+    /*Estilo visual*/
+    background-color: #27AE60;
+    color: #FFFFFF;
+    border-color: #27AE60;
+}
+
+.toast-confirmacion p {
+    /*Acomodo y medidas*/
+    margin: 0 0 1rem 0;
+    font-weight: bold;
+}
+.botones-confirmacion-toast {
+    /*Acomodo y medidas*/
+    display: flex;
+    justify-content: flex-end;
+}
+.botones-confirmacion-toast button{
+    /*Acomodo y medidas*/
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    /*Interaccion del boton*/
+    cursor: pointer;    
+}
+.boton-confirmar-toast{
+    /*Estilo visual*/
+    background-color: #EF4444;
+    color:#FFFFFF;
+}
