@@ -5,6 +5,10 @@ Esta desarrollado con la base fundamental de la web (HTML, CSS y JS), impulsado 
 
 Este proyecto a sido realizado con fines de prueba de capacidades tecnicas en el desarrollo frontend/web.
 
+##
+Si deseas ver el sitio, puedes acceder a este link:
+https://gestor-de-tareas-six.vercel.app/
+
 ## Como testear 
 
 A falta de un backend, se ha hecho uso del LocalStorage, por lo que para el testeo del sitio se requieren los siguientes datos hardcodeados:
